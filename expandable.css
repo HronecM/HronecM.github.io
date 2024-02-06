@@ -1,0 +1,28 @@
+.button-box{
+    position: absolute;
+    background-color: aqua;
+    width: 100%;
+    left: 0px;
+}
+
+.button-grid {
+    display: grid;
+    width: 100%;
+    border-collapse: collapse;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: .1em;
+    grid-column-gap: 2px;
+    background-color: black;
+}
+
+.grid-item {
+    place-self: center;
+    background-color: lightgrey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 8px;
+    font-size: 4vw;
+    text-align: center;
+}
